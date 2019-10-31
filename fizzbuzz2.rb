@@ -12,13 +12,13 @@
 
     case
     when fizz_cnt == 0 && buzz_cnt == 0
-      puts "#{i} : FizzBuzz"
+      puts "#{i}: FizzBuzz"
     when buzz_cnt == 0
-      puts "#{i} : Buzz"
+      puts "#{i}: Buzz"
     when fizz_cnt == 0
-      puts "#{i} : Fizz"
+      puts "#{i}: Fizz"
     else
-      puts "#{i} : #{cnt}"
+      puts "#{i}: #{cnt}"
     end
   end
 end
