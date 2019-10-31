@@ -8,13 +8,13 @@
 
   case
   when fizz_cnt == 0 && buzz_cnt == 0
-    puts 'FizzBuzz'
+    print 'FizzBuzz '
   when buzz_cnt == 0
-    puts 'Buzz'
+    print 'Buzz '
   when fizz_cnt == 0
-    puts 'Fizz'
+    print 'Fizz '
   else
-    puts cnt
+    print "#{cnt} "
   end
 
 end
